@@ -1,7 +1,7 @@
-FROM openjdk:8
+FROM openjdk:11
 MAINTAINER coderfi@gmail.com
 
-ENV AVRO_VERSION 1.11.0
+ENV AVRO_VERSION 1.11.1
 RUN mkdir -p /opt/avro
 ENV AVRO_TOOLS_JAR /opt/avro/avro-tools-${AVRO_VERSION}.jar
 
